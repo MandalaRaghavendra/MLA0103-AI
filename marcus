@@ -1,0 +1,26 @@
+START
+
+1. Define facts:
+   - Marcus is a man.
+   - Marcus is a Pompeian.
+   - Caesar is a ruler.
+   - Marcus tried to assassinate Caesar.
+
+2. Define rules:
+   - If a person is a Pompeian, then the person is a Roman.
+   - If a person is a man, then the person is a person.
+   - Every person is loyal to someone.
+   - If a person tries to assassinate a ruler, then the person is not loyal to that ruler.
+   - If a Roman is not loyal to Caesar, then the Roman hates Caesar.
+   - If a Roman does not hate Caesar, then the Roman is loyal to Caesar.
+
+3. Accept a query from the user.
+
+4. Check whether the query can be proved using the facts and rules.
+
+5. If the query is true:
+      Display "TRUE".
+   Else:
+      Display "FALSE".
+
+STOP
